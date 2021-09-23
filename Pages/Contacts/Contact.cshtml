@@ -1,0 +1,47 @@
+@page
+@model CineMania.Pages.Contacts.ContactModel
+@{
+    ViewData["Title"] = "Contact";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1 style="text-align: center">Contact Us</h1> <br><br><br> 
+
+<div class="row">
+    <div class="col-md-4">
+    </div>
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Contact.Name" class="control-label"></label>
+                <input asp-for="Contact.Name" class="form-control" placeholder="Enter Your Names"/>
+                <span asp-validation-for="Contact.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contact.Email" class="control-label"></label>
+                <input asp-for="Contact.Email" class="form-control" placeholder="Enter Your Email"/>
+                <span asp-validation-for="Contact.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                            <label asp-for="Contact.Phone" class="control-label"></label>
+                            <input asp-for="Contact.Phone" class="form-control" placeholder="Enter Phone number"/>
+                            <span asp-validation-for="Contact.Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contact.Subject" class="control-label"></label>
+                <input asp-for="Contact.Subject" class="form-control" placeholder="Enter Subject"/>
+                <span asp-validation-for="Contact.Subject" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contact.Message" class="control-label"></label>
+                <textarea asp-for="Contact.Message" class="form-control" placeholder="Enter Your Message"></textarea>
+                <span asp-validation-for="Contact.Message" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Send" class="btn btn-primary"/>
+            </div>
+        </form>
+    </div>
+</div>
