@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\student\\Downloads\\My-Cinemania-project---ASP.net-main\\CineMania.csproj": {}
+    "C:\\Users\\student\\Desktop\\My-Cinemania-project---ASP.net\\CineMania.csproj": {}
   },
   "projects": {
-    "C:\\Users\\student\\Downloads\\My-Cinemania-project---ASP.net-main\\CineMania.csproj": {
+    "C:\\Users\\student\\Desktop\\My-Cinemania-project---ASP.net\\CineMania.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\student\\Downloads\\My-Cinemania-project---ASP.net-main\\CineMania.csproj",
+        "projectUniqueName": "C:\\Users\\student\\Desktop\\My-Cinemania-project---ASP.net\\CineMania.csproj",
         "projectName": "CineMania",
-        "projectPath": "C:\\Users\\student\\Downloads\\My-Cinemania-project---ASP.net-main\\CineMania.csproj",
+        "projectPath": "C:\\Users\\student\\Desktop\\My-Cinemania-project---ASP.net\\CineMania.csproj",
         "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\student\\Downloads\\My-Cinemania-project---ASP.net-main\\obj\\",
+        "outputPath": "C:\\Users\\student\\Desktop\\My-Cinemania-project---ASP.net\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\student\\AppData\\Roaming\\NuGet\\NuGet.Config"
